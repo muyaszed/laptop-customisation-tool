@@ -1,0 +1,17 @@
+.component-options__component-option {
+  margin: 10px 0;
+
+  &:hover {
+    border: 1px solid #000000;
+  }
+
+  .component-options__info {
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+  }
+}
+
+.clickable {
+  cursor: pointer;
+}
