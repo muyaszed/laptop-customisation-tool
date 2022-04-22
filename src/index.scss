@@ -1,3 +1,9 @@
 //Global styling
 @import "./normalize.scss";
 
+//Component styling
+@import "./components/Header/header.style.scss";
+@import "./components//Content/content.style.scss";
+@import "./components/Box/box.style.scss";
+@import "./components/SpecComponent/specComponent.style.scss";
+@import "./components/OptionItem/optionItem.style.scss";
