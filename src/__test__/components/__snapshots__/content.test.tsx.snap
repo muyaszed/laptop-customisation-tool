@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page render the page correctly by default 1`] = `
+<div
+  className="content"
+>
+  <div
+    className="spec-sheet rounded-grey-border"
+    data-testid="spec-choices"
+  >
+    <h2>
+      Customisation Choices
+    </h2>
+  </div>
+  <div
+    className="summary-window rounded-grey-border"
+    data-testid="spec-summary"
+  >
+    <h2>
+      Summary
+    </h2>
+    <div
+      className="summary-window__chosen-specs"
+    >
+      <ul
+        className="chosen-specs__spec-list list--no-style"
+      />
+    </div>
+    <span
+      className="summary-window__total"
+    >
+      Total: 
+      £300
+    </span>
+    <button
+      className="buy-button clickable"
+      name="my-button"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      Buy now
+    </button>
+  </div>
+</div>
+`;
